@@ -1,2 +1,2 @@
 # Project-Elixea
-Attempting therapy for those diagnosed with cerebral palsy to improve their motor coordinations by using a Sphero.
+A tap-styled game where you can play to the beats and rythm to any music!
