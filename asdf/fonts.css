@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('pacifico1/pacifico-webfont.eot');
+    src: url('pacifico1/pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('pacifico1/pacifico-webfont.woff') format('woff'),
+         url('pacifico1/pacifico-webfont.ttf') format('truetype'),
+         url('pacifico1/pacifico-webfont.svg#pacificoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('quicksand1/quicksand-regular-webfont.eot');
+    src: url('quicksand1/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quicksand1/quicksand-regular-webfont.woff') format('woff'),
+         url('quicksand1/quicksand-regular-webfont.ttf') format('truetype'),
+         url('quicksand1/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('quicksand/quicksand-bold.eot');
+    src: url('quicksand/quicksand-bold.eot?#iefix') format('embedded-opentype'),
+         url('quicksand/quicksand-bold.woff2') format('woff2'),
+         url('quicksand/quicksand-bold.woff') format('woff'),
+         url('quicksand/quicksand-bold.ttf') format('truetype'),
+         url('quicksand/quicksand-bold.svg#quicksandbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#headerTitle{
+	font-family:quicksandregular;
+	color:#191919;
+	font-size: 8em;
+	text-decoration: none;
+	margin: auto;
+	padding: 0px;
+	text-align: center;
+}
+
+
+#descriptionTitle{
+	font-family:quicksandregular;
+	color:#191919;	
+	font-size: 1.5em;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#enterBox{
+	font-family: quicksandbold;
+	color: #191919;
+	font-size: 1.7em;
+	text-decoration: none;
+	margin: auto;
+	padding: 0px;
+	text-align: center;
+}
+
+#AdminLink{
+	font-family:quicksandregular;
+	color:#f5f5f5;	
+	font-size: 1em;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;	
+}
+

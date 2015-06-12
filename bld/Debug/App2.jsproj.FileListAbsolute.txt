@@ -1,0 +1,15 @@
+c:\users\taehong\documents\visual studio 2013\Projects\App2\App2\bin\Debug\ReverseMap\resources.pri
+c:\users\taehong\documents\visual studio 2013\Projects\App2\App2\bin\Debug\AppxManifest.xml
+c:\users\taehong\documents\visual studio 2013\Projects\App2\App2\bin\Debug\App2.build.appxrecipe
+c:\users\taehong\documents\visual studio 2013\Projects\App2\App2\bld\Debug\priconfig.xml
+c:\users\taehong\documents\visual studio 2013\Projects\App2\App2\bld\Debug\priconfig.xml.intermediate
+c:\users\taehong\documents\visual studio 2013\Projects\App2\App2\bld\Debug\layout.resfiles
+c:\users\taehong\documents\visual studio 2013\Projects\App2\App2\bld\Debug\layout.resfiles.intermediate
+c:\users\taehong\documents\visual studio 2013\Projects\App2\App2\bld\Debug\resources.resfiles
+c:\users\taehong\documents\visual studio 2013\Projects\App2\App2\bld\Debug\resources.resfiles.intermediate
+c:\users\taehong\documents\visual studio 2013\Projects\App2\App2\bld\Debug\pri.resfiles
+c:\users\taehong\documents\visual studio 2013\Projects\App2\App2\bld\Debug\pri.resfiles.intermediate
+c:\users\taehong\documents\visual studio 2013\Projects\App2\App2\bld\Debug\qualifiers.txt
+c:\users\taehong\documents\visual studio 2013\Projects\App2\App2\bld\Debug\qualifiers.txt.intermediate
+c:\users\taehong\documents\visual studio 2013\Projects\App2\App2\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\taehong\documents\visual studio 2013\Projects\App2\App2\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,28 @@
+﻿body {
+    background-color: #f5f5f5;
+}
+
+#msTopContainer{
+	width: 100%;
+	height: 50%;
+}
+
+#msTitle{
+    position: relative;
+    float: right;
+    top: 20%;
+    right: 5%;
+}
+
+#msBottomContainer{
+	width: 100%;
+	height: 50%;
+}
+
+#msMenuList{
+    position: relative;
+    float: right;
+    right: 5%;
+    text-align: right;
+}
+
