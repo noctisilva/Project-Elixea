@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="MobileServices" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>en-US, zh-TW, zh-CN, ru-RU, ko-KR, ja-JP, it-IT, fr-FR, es-ES, de-DE</Language>
+		</Qualifiers>
+		<ResourceMapSubtree name="MobileServices">
+			<ResourceMapSubtree name="Resources">
+				<NamedResource name="Extensions_ConnectionFailureMessage" uri="ms-resource://MobileServices/MobileServices/Resources/Extensions_ConnectionFailureMessage">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>未預期的連線失敗。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>意外的连接失败。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>Непредвиденный сбой подключения.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>예상치 못한 연결 오류입니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>予期しない接続エラー。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>Errore di connessione imprevisto.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>Échec de connexion inattendu.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>Error de conexión inesperado.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>Unexpected connection failure.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>Unerwarteter Verbindungsfehler.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Extensions_DefaultErrorMessage" uri="ms-resource://MobileServices/MobileServices/Resources/Extensions_DefaultErrorMessage">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>未預期的失敗。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>意外失败。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>Непредвиденный сбой.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>예상치 못한 오류입니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>予期しないエラー。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>Errore imprevisto.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>Échec inattendu.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>Error inesperado.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>Unexpected failure.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>Unerwarteter Fehler.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MobileServiceLogin_AuthenticationProviderNotSupported" uri="ms-resource://MobileServices/MobileServices/Resources/MobileServiceLogin_AuthenticationProviderNotSupported">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>不支援的驗證提供者名稱。請指定其中一個 {0}。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>身份验证提供程序名称不受支持。请从 {0} 中指定一个。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>Неподдерживаемое имя поставщика проверки подлинности. Укажите одно из следующих: {0}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>지원되지 않는 인증 공급자 이름입니다. {0} 중 하나를 지정하십시오.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>サポートされていない認証プロバイダーの名前です。{0} のいずれかを指定してください。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>Nome provider di autenticazione non supportato. Specificare un nome di {0}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>Le nom du fournisseur d’authentification n’est pas pris en charge. Veuillez en spécifier un de {0}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>Nombre de proveedor de autenticación no admitido. Especifique uno de {0}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>Unsupported authentication provider name. Please specify one of {0}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>Nicht unterstützter Authentifizierungsanbietername. Bitte geben Sie einen Namen {0} an.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MobileServiceLogin_InvalidProvider" uri="ms-resource://MobileServices/MobileServices/Resources/MobileServiceLogin_InvalidProvider">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>第一個參數必須為驗證提供者名稱或 Microsoft 帳戶驗證 Token。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>第一个参数必须是身份验证提供程序的名称或 Microsoft 帐户身份验证令牌。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>Первым параметром должно быть имя поставщика проверки подлинности или маркер проверки подлинности учетной записи Майкрософт.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>첫 번째 매개 변수는 인증 공급자의 이름이거나 Microsoft 계정 인증 토큰이어야 합니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>最初のパラメーターは、認証プロバイダーまたは Microsoft アカウントの認証トークンの名前である必要があります。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>Il primo parametro deve essere il nome di un provider di autenticazione o un token di autenticazione dell'account Microsoft.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>Le premier paramètre doit correspondre au nom du fournisseur d’autentification ou à un jeton d’authentification de compte Microsoft.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>El primer parámetro debe ser el nombre del proveedor de autenticación o un token de autenticación de la cuenta Microsoft.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>The first parameter must be the name of the autentication provider or a Microsoft Account authentication token.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>Der erste Parameter muss der Name des Authentifizierungsanbieters oder ein Authentifizierungstoken eines Microsoft-Kontos sein.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MobileServiceLogin_InvalidResponseFormat" uri="ms-resource://MobileServices/MobileServices/Resources/MobileServiceLogin_InvalidResponseFormat">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>無效的驗證回應格式。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>身份验证响应的格式无效。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>Недопустимый формат ответа проверки подлинности.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>잘못된 형식의 인증 응답입니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>認証の応答の形式が正しくありません。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>Formato della risposta di autenticazione non valido.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>Le format de la réponse d’authentification n’est pas valide.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>Formato no válido de la respuesta de autenticación.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>Invalid format of the authentication response.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>Ungültiges Format der Authentifizierungsantwort.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MobileServiceLogin_LoginErrorResponse" uri="ms-resource://MobileServices/MobileServices/Resources/MobileServiceLogin_LoginErrorResponse">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>無法開始登入作業，因為登入作業已在進行中。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>无法启动登录操作，因为登录已在进行中。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>Не удается начать операцию входа, так как он уже выполняется.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>로그인이 이미 진행 중이므로 로그인 작업을 시작할 수 없습니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>ログインが既に進行中であるため、ログイン処理を開始できません。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>Impossibile avviare l'accesso perché l'operazione è già in corso.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>Impossible de démarrer une opération d’ouverture de session, car une ouverture de session est déjà en cours.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>No se puede iniciar una operación de inicio de sesión porque el inicio de sesión ya está en curso.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>Cannot start a login operation because login is already in progress.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>Es kann kein Anmeldevorgang gestartet werden, weil aktuell bereits eine Anmeldung ausgeführt wird.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MobileServiceTable_InsertIdAlreadySet" uri="ms-resource://MobileServices/MobileServices/Resources/MobileServiceTable_InsertIdAlreadySet">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>如果已設定 {0} 成員，則無法插入。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>如果已设置 {0} 成员，则无法插入。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>Вставка невозможна, если элемент {0} уже задан.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>구성원 {0}이(가) 이미 설정된 경우에는 삽입할 수 없습니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>{0} メンバーが既に設定されている場合は、挿入できません。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>Impossibile eseguire l'inserimento se il membro {0} è già impostato.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>Insertion impossible si le membre {0} est déjà défini.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>No se puede insertar si el miembro {0} ya se ha establecido.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>Cannot insert if the {0} member is already set.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>Der Einfügevorgang kann nicht erfolgen, wenn das Element '{0}'bereits festgelegt ist.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MobileServiceTable_NotSingleObject" uri="ms-resource://MobileServices/MobileServices/Resources/MobileServiceTable_NotSingleObject">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>無法從回應 {0} 中取得物件。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>无法从响应 {0} 获取对象。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>Не удалось получить объект из ответа: {0}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>응답 {0}에서 개체를 가져올 수 없습니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>応答 {0} からオブジェクトを取得できません。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>Impossibile ottenere un oggetto dalla risposta {0}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>Impossible d’obtenir un objet de la réponse {0}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>No se puede obtener el objeto de la respuesta {0}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>Could not get object from response {0}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>Das Objekt konnte nicht aus der Antwort {0} abgerufen werden.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MobileServiceTable_ReadMismatchedQueryTables" uri="ms-resource://MobileServices/MobileServices/Resources/MobileServiceTable_ReadMismatchedQueryTables">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>無法透過表格 '{0}' 取得表格 '{1}' 的查詢結果。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>无法通过表“{0}”获取表“{1}”的查询结果。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>Не удается получить результаты запроса таблицы "{1}" посредством таблицы "{0}".</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>테이블 '{0}'을(를) 통해 테이블 '{1}'의 쿼리 결과를 가져올 수 없습니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>テーブル '{0}' を介してテーブル '{1}' のクエリの結果を取得することはできません。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>Impossibile ottenere i risultati di una query per la tabella '{1}' tramite la tabella '{0}'.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>Impossible d’obtenir les résultats d’une requête pour la table « {1} » via la table « {0} ».</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>No se pueden obtener los resultados de una consulta para la tabla '{1}' mediante la tabla '{0}'.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>Cannot get the results of a query for table '{1}' via table '{0}'.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>Die Ergebnisse einer Abfrage für die Tabelle '{1}' können nicht über die Tabelle '{0}' abgerufen werden.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Push_BodyTemplateMustBeXml" uri="ms-resource://MobileServices/MobileServices/Resources/Push_BodyTemplateMustBeXml">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>任何沒有原始標頭的範本都需要有效的 XML。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>不含 raw 标头的任何模板都必须为有效的 XML 格式。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>В заголовке raw любого шаблона должен быть указан допустимый XML.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>원시 헤더가 없는 템플릿에 올바른 XML이 필요합니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>生のヘッダーのないテンプレートには、有効な XML が必要です。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>Per i modelli che non dispongono di un'intestazione non elaborata è necessario un XML valido.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>XML valide est nécessaire pour tout modèle sans un en-tête brut.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>Se requiere XML válido para todas las plantillas sin encabezado sin formato.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>Valid XML is required for any template without a raw header.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>Gültiges XML ist für jede Vorlage ohne einen formatierten Header erforderlich.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Push_ConflictWithReservedName" uri="ms-resource://MobileServices/MobileServices/Resources/Push_ConflictWithReservedName">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>範本名稱與保留的名稱 '{0}' 衝突。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>模板名称与保留名称“{0}”冲突。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>Имя шаблона конфликтует с зарезервированным именем "{0}".</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>템플릿 이름이 예약된 이름 '{0}'과(와) 충돌합니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>テンプレート名が予約された名前 '{0}' と競合します。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>Nome modello in conflitto con il nome riservato '{0}'.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>Le nom de modèle entre en conflit avec le nom réservé '{0}'.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>El nombre de la plantilla entra en conflicto con el nombre reservado '{0}'.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>Template name conflicts with reserved name '{0}'.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>Der Vorlagenname verursacht einen Konflikt mit dem reservierten Namen '{0}'.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Push_InvalidTemplateName" uri="ms-resource://MobileServices/MobileServices/Resources/Push_InvalidTemplateName">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>範本名稱不能包含 ';' 或 ':'。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>模板名称不能包含“;”或“:”。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>Имя шаблона не может содержать символы ";" или ":".</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>템플릿 이름에 ';' 또는 ':'을 포함할 수 없습니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>テンプレート名に ";" または ":" を含めることはできません。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>Il nome modello non può contenere ';' o ':'.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>Le nom du modèle ne peut contenir ni ';' ni ':'.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>El nombre de la plantilla no puede contener ';' ni ':'.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>Template name can't contain ';' or ':'.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>Der Vorlagenname darf nicht das Zeichen ";" oder ":" enthalten.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Push_NotSupportedXMLFormatAsBodyTemplateWin8" uri="ms-resource://MobileServices/MobileServices/Resources/Push_NotSupportedXMLFormatAsBodyTemplateWin8">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>bodyTemplate 的 XML 格式不受支援。bodyTemplate 的第一個節點應該是 Badge/Tile/Toast，wns/raw 除外，其應該有有有效的 XML。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>bodyTemplate 不是接受的 XML 格式。bodyTemplate 的第一个节点应为 Badge/Tile/Toast，但 wns/raw 模板除外，此模板应为有效的 XML。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>Шаблон текста в формате XML не принимается. Первым узлом bodyTemplate должен быть Badge/Tile/Toast, за исключением шаблона wns/raw, который должен быть представлен в действительном формате XML.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>bodyTemplate이 허용되는 XML 형식이 아닙니다. wns/원시 템플릿을 제외한 bodyTemplate의 첫 번째 노드는 Badge/Tile/Toast여야 하며, 이는 올바른 XML이어야 합니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>bodyTemplate は許可される XML 形式ではありません。有効な XML である必要がある wns/raw テンプレートを除き、bodyTemplate の最初のノードは Badge/Tile/Toast である必要があります。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>Formato XML di bodyTemplate non accettato. Il primo nodo di bodyTemplate deve essere Badge/Tile/Toast, ad eccezione del modello wns/raw, che devono essere in formato XML valido.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>Le bodyTemplate n'est pas dans un format XML accepté. Le premier nœud de bodyTemplate doit être Badge/Tile/Toast, sauf le modèle wns/raw, qui doit être un XML valide.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>El objeto bodyTemplate no es un formato XML aceptado. El primer nodo del objeto bodyTemplate debe ser Badge/Tile/Toast, excepto para la plantilla wns o sin formato, que debe tener un formato XML válido.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>The bodyTemplate is not in accepted XML format. The first node of the bodyTemplate should be Badge/Tile/Toast, except for the wns/raw template, which need to be a valid XML.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>"bodyTemplate" weist kein zulässiges XML-Format auf. Der erste Knoten von "bodyTemplate" sollte ein Badge, eine Kachel oder ein Popup sein. Dies gilt nicht für eine wns/raw-Vorlage, die aus gültigem XML bestehen muss.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Push_TagNoCommas" uri="ms-resource://MobileServices/MobileServices/Resources/Push_TagNoCommas">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>標籤不能包含 ','。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>标记不得包含“,”。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>Теги не должны содержать символ ",".</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>태그에 ','를 포함하지 않아야 합니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>タグに ',' を含めることはできません。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>I tag non devono contenere ','.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>Les balises ne doivent pas contenir ','.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>Las etiquetas no deben contener ','.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>Tags must not contain ','.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>Tags dürfen nicht das Zeichen "," enthalten.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Validate_InvalidId" uri="ms-resource://MobileServices/MobileServices/Resources/Validate_InvalidId">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>{0} 無效。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>{0} 无效。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>{0} не является действительным.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>{0}이(가) 잘못되었습니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>{0} は無効です。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>{0} non valido.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>{0} n’est pas valide.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>{0} no es válido.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>{0} is not valid.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>"{0}" ist ungültig.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Validate_InvalidUserParameter" uri="ms-resource://MobileServices/MobileServices/Resources/Validate_InvalidUserParameter">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>{0} 包含無效的使用者定義查詢字串參數: {1}。使用者定義查詢字串參數不能以 '$' 開頭。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>{0} 包含无效的用户定义的查询字符串参数: {1}。用户定义的查询字符串参数不能以 "$" 开头。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>{0} содержит недопустимый параметр пользовательской строки запроса: {1}. Параметры пользовательской строки запроса не должны начинаться с '$'.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>{0}에 잘못된 사용자 정의 쿼리 문자열 매개 변수 {1}이(가) 포함됩니다. 사용자 정의 쿼리 문자열 매개 변수는 '$'로 시작할 수 없습니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>{0} には無効なユーザー定義クエリ文字列パラメーター {1} が含まれています。ユーザー定義クエリ文字列パラメーターの先頭を '$' にすることはできません。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>{0} contiene un parametro di stringa di query definito dall'utente non valido: {1}. Questi parametri non devono iniziare con '$'.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>{0} contient un paramètre de chaîne de requête défini par l’utilisateur non valide : {1}. Les paramètres de chaîne de requête définis par l’utilisateur ne doivent pas commencer par « $ ».</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>{0} contiene un parámetro de cadena de consulta definido por el usuario: {1}. Los parámetros de cadena de consulta definidos por el usuario no deben comenzar por '$'.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>{0} contains an invalid user-defined query string parameter: {1}. User-defined query string parameters must not begin with a '$'.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>{0} enthält einen ungültigen benutzerdefinierten Abfragezeichenfolge-Parameter: {1}. Benutzerdefinierte Abfragezeichenfolge-Parameter dürfen nicht mit '$' beginnen.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Validate_LengthUnexpected" uri="ms-resource://MobileServices/MobileServices/Resources/Validate_LengthUnexpected">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>{0} 預期長度為 {1}，而非 {2}。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>{0} 的长度应为 {1}，而不是 {2}。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>Ожидается длина {0}, равная {1}, а не {2}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>{0}에는 {2}이(가) 아닌 길이 {1}이(가) 필요합니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>{0} は、{2} ではなく長さ {1} であることが想定されています。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>{0} deve avere una lunghezza {1}, non {2}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>{0} doit avoir une longueur de {1}, et non {2}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>Se espera que {0} tenga una longitud {1}, no {2}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>{0} is expected to have length {1}, not {2}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>Es wird erwartet, dass {0} die Länge {1} und nicht {2} aufweist.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Validate_NotNullError" uri="ms-resource://MobileServices/MobileServices/Resources/Validate_NotNullError">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>{0} 不能為 Null。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>{0} 不能为 Null。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>{0} не может иметь значение NULL.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>{0}은(는) null일 수 없습니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>{0} を null にすることはできません。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>{0} non può essere null.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>{0} ne peut pas avoir une valeur null.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>{0} no puede ser nulo.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>{0} cannot be null.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>{0} darf nicht null sein.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Validate_NotNullOrEmptyError" uri="ms-resource://MobileServices/MobileServices/Resources/Validate_NotNullOrEmptyError">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>{0} 不能為 Null 或空。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>{0} 不能为 Null 或为空。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>{0} не может иметь значение NULL или пустое значение.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>{0}은(는) null이거나 비어 있을 수 없습니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>{0} を null または空にすることはできません。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>{0} non può essere null o vuoto.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>{0} ne peut pas avoir une valeur null ou être vide.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>{0} no puede ser nulo ni estar vacío.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>{0} cannot be null or empty.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>{0} darf nicht null oder leer sein.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Validate_TypeCheckError" uri="ms-resource://MobileServices/MobileServices/Resources/Validate_TypeCheckError">
+					<Candidate qualifiers="Language-zh-TW" type="String">
+						<Value>{0} 預期為類型 {1} 的值，而非 {2}。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-zh-CN" type="String">
+						<Value>{0} 应为 {1} 类型的值，而不是 {2} 类型的值。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ru-RU" type="String">
+						<Value>Ожидается значение {0} типа {1}, а не {2}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ko-KR" type="String">
+						<Value>{0}은(는) {2}이(가) 아닌 유형 {1}의 값이어야 합니다.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ja-JP" type="String">
+						<Value>{0} は、{2} ではなく型 {1} の値であることが想定されています。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-it-IT" type="String">
+						<Value>{0} deve essere un valore di tipo {1}, non {2}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-fr-FR" type="String">
+						<Value>{0} doit être une valeur de type {1}, et non {2}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-es-ES" type="String">
+						<Value>Se espera que {0} sea un valor del tipo {1}, no {2}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-en-US" isDefault="true" type="String">
+						<Value>{0} is expected to be a value of type {1}, not {2}.</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-de-DE" type="String">
+						<Value>Es wird erwartet, dass {0} ein Wert vom Typ {1} und nicht {2} ist.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

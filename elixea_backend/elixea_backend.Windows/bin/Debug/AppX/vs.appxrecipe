@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AURIEL</Machine>
+    <WindowsUser>TaeHong</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>fabfd15b-1688-4739-904d-58828abbf47f</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\TaeHong\OneDrive\Sphero Spilot Summer 2015\Chiffon\elixea-backend_Windows_JS\elixea_backend\elixea_backend.Windows\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>373F357C5FF9C3BF4F88E64C37D1C05B6B80D63B3F94EA7D86A1BE41CB4B94FA</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>fabfd15b-1688-4739-904d-58828abbf47f_1.0.0.0_neutral__yps17xarsp2at</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>fabfd15b-1688-4739-904d-58828abbf47f_yps17xarsp2at!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>fabfd15b-1688-4739-904d-58828abbf47f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=test</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\TaeHong\OneDrive\Sphero Spilot Summer 2015\Chiffon\elixea-backend_Windows_JS\elixea_backend\elixea_backend.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-25T17:01:20.569</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\TaeHong\OneDrive\Sphero Spilot Summer 2015\Chiffon\elixea-backend_Windows_JS\elixea_backend\elixea_backend.Windows\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2015-06-25T16:59:22.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\TaeHong\OneDrive\Sphero Spilot Summer 2015\Chiffon\elixea-backend_Windows_JS\elixea_backend\elixea_backend.Windows\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-10T21:06:17.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\TaeHong\OneDrive\Sphero Spilot Summer 2015\Chiffon\elixea-backend_Windows_JS\elixea_backend\elixea_backend.Windows\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-10T21:06:17.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\TaeHong\OneDrive\Sphero Spilot Summer 2015\Chiffon\elixea-backend_Windows_JS\elixea_backend\elixea_backend.Windows\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-10T21:06:17.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\TaeHong\OneDrive\Sphero Spilot Summer 2015\Chiffon\elixea-backend_Windows_JS\elixea_backend\elixea_backend.Windows\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-10T21:06:17.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\TaeHong\OneDrive\Sphero Spilot Summer 2015\Chiffon\elixea-backend_Windows_JS\elixea_backend\elixea_backend.Windows\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2015-06-25T16:59:22.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\TaeHong\OneDrive\Sphero Spilot Summer 2015\Chiffon\elixea-backend_Windows_JS\elixea_backend\elixea_backend.Windows\js\MobileServices.intellisense.js">
+      <PackagePath>js\MobileServices.intellisense.js</PackagePath>
+      <Modified>2015-06-25T16:59:22.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\TaeHong\OneDrive\Sphero Spilot Summer 2015\Chiffon\elixea-backend_Windows_JS\elixea_backend\elixea_backend.Windows\js\MobileServices.js">
+      <PackagePath>js\MobileServices.js</PackagePath>
+      <Modified>2015-06-25T16:59:22.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\TaeHong\OneDrive\Sphero Spilot Summer 2015\Chiffon\elixea-backend_Windows_JS\elixea_backend\elixea_backend.Windows\js\MobileServices.min.js">
+      <PackagePath>js\MobileServices.min.js</PackagePath>
+      <Modified>2015-06-25T16:59:22.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\TaeHong\OneDrive\Sphero Spilot Summer 2015\Chiffon\elixea-backend_Windows_JS\elixea_backend\elixea_backend.Shared\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2015-06-25T16:59:22.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\TaeHong\OneDrive\Sphero Spilot Summer 2015\Chiffon\elixea-backend_Windows_JS\elixea_backend\elixea_backend.Windows\packages.config">
+      <PackagePath>packages.config</PackagePath>
+      <Modified>2015-06-25T16:59:22.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\TaeHong\OneDrive\Sphero Spilot Summer 2015\Chiffon\elixea-backend_Windows_JS\elixea_backend\elixea_backend.Windows\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-06-25T17:01:20.293</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
